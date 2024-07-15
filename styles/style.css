@@ -151,7 +151,14 @@ margin-left: -50px;
     align-items: center;
     
 }
-
+/* footer */
+footer{
+    max-width: 1440px;
+    margin: 130px auto 20px;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #FFF4E7;
+}
 
 
 
