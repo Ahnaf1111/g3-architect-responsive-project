@@ -139,7 +139,18 @@ margin-left: -50px;
 .fact:hover{
     transform: rotate(10deg) scale(1.1);
 }
-
+/* sponsor */
+.sponsor>h3, p{
+    text-align: center;
+}
+.sponsor-imgs{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    filter: grayscale(100%);
+    align-items: center;
+    
+}
 
 
 
@@ -189,6 +200,11 @@ margin-left: -50px;
     .fact{
         margin-top: 10px;
     }
+    /* sponsor */
+    .sponsor-imgs{
+        flex-wrap: wrap;
+        gap: 25px;
+    }
 
 
 }
@@ -219,6 +235,11 @@ margin-left: -50px;
     }
     .fact{
         margin-top: 10px;
+    }
+    /* sponsor */
+    .sponsor-imgs{
+        flex-wrap: wrap;
+        gap: 25px;
     }
 
 }
